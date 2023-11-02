@@ -149,8 +149,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "G:/dossier bureau/workspace/CLionProjects/ESIREM/C++/TD1_banque/cmake-build-debug",
-		"source" : "G:/dossier bureau/workspace/CLionProjects/ESIREM/C++/TD1_banque"
+		"build" : "G:/dossier bureau/workspace/CLionProjects/ESIREM/C++/Gestion_banque/cmake-build-debug",
+		"source" : "G:/dossier bureau/workspace/CLionProjects/ESIREM/C++/Gestion_banque"
 	},
 	"version" : 
 	{

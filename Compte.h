@@ -11,7 +11,7 @@ class Compte {
 
 private:
     int numero;
-    double solde;
+    int solde;
     Client titulaire;
 
 public:

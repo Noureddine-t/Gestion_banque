@@ -1,3 +1,10 @@
 # ninja log v5
 1	567	7201181152593217	CMakeFiles/TD1_banque.dir/main.cpp.obj	18d2669087bcd5aa
 569	821	7201181155081003	TD1_banque.exe	a24342d4ec6e8c8a
+10	291	7206314415529305	CMakeFiles/TD1_banque.dir/Adresse.cpp.obj	a540d4b062ec6b8
+6	293	7206314415549284	CMakeFiles/TD1_banque.dir/Client.cpp.obj	76b1f7452ea16548
+14	294	7206314415565150	CMakeFiles/TD1_banque.dir/Compte.cpp.obj	bd2b72dbc01d2bee
+17	303	7206314415663692	CMakeFiles/TD1_banque.dir/Date.cpp.obj	218ff997a575c5
+1	304	7206314415663692	CMakeFiles/TD1_banque.dir/main.cpp.obj	69b399fb3ab04a2e
+20	312	7206314415746881	CMakeFiles/TD1_banque.dir/Operation.cpp.obj	249b3e4616b70089
+312	404	7206314416634945	TD1_banque.exe	d82d25569224556e

@@ -11,4 +11,6 @@ add_executable(TD1_banque main.cpp
         Compte.cpp
         Compte.h
         Operation.cpp
-        Operation.h)
+        Operation.h
+        Date.cpp
+        Date.h)

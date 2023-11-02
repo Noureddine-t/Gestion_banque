@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = G$:/dossier$ bureau/workspace/CLionProjects/ESIREM/C++/TD1_banque/cmake-build-debug/
+cmake_ninja_workdir = G$:/dossier$ bureau/workspace/CLionProjects/ESIREM/C++/Gestion_banque/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target TD1_banque
 
@@ -49,32 +49,38 @@ cmake_ninja_workdir = G$:/dossier$ bureau/workspace/CLionProjects/ESIREM/C++/TD1
 
 build cmake_object_order_depends_target_TD1_banque: phony || CMakeFiles/TD1_banque.dir
 
-build CMakeFiles/TD1_banque.dir/main.cpp.obj: CXX_COMPILER__TD1_banque_unscanned_Debug G$:/dossier$ bureau/workspace/CLionProjects/ESIREM/C++/TD1_banque/main.cpp || cmake_object_order_depends_target_TD1_banque
+build CMakeFiles/TD1_banque.dir/main.cpp.obj: CXX_COMPILER__TD1_banque_unscanned_Debug G$:/dossier$ bureau/workspace/CLionProjects/ESIREM/C++/Gestion_banque/main.cpp || cmake_object_order_depends_target_TD1_banque
   DEP_FILE = CMakeFiles\TD1_banque.dir\main.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\TD1_banque.dir
   OBJECT_FILE_DIR = CMakeFiles\TD1_banque.dir
 
-build CMakeFiles/TD1_banque.dir/Client.cpp.obj: CXX_COMPILER__TD1_banque_unscanned_Debug G$:/dossier$ bureau/workspace/CLionProjects/ESIREM/C++/TD1_banque/Client.cpp || cmake_object_order_depends_target_TD1_banque
+build CMakeFiles/TD1_banque.dir/Client.cpp.obj: CXX_COMPILER__TD1_banque_unscanned_Debug G$:/dossier$ bureau/workspace/CLionProjects/ESIREM/C++/Gestion_banque/Client.cpp || cmake_object_order_depends_target_TD1_banque
   DEP_FILE = CMakeFiles\TD1_banque.dir\Client.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\TD1_banque.dir
   OBJECT_FILE_DIR = CMakeFiles\TD1_banque.dir
 
-build CMakeFiles/TD1_banque.dir/Adresse.cpp.obj: CXX_COMPILER__TD1_banque_unscanned_Debug G$:/dossier$ bureau/workspace/CLionProjects/ESIREM/C++/TD1_banque/Adresse.cpp || cmake_object_order_depends_target_TD1_banque
+build CMakeFiles/TD1_banque.dir/Adresse.cpp.obj: CXX_COMPILER__TD1_banque_unscanned_Debug G$:/dossier$ bureau/workspace/CLionProjects/ESIREM/C++/Gestion_banque/Adresse.cpp || cmake_object_order_depends_target_TD1_banque
   DEP_FILE = CMakeFiles\TD1_banque.dir\Adresse.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\TD1_banque.dir
   OBJECT_FILE_DIR = CMakeFiles\TD1_banque.dir
 
-build CMakeFiles/TD1_banque.dir/Compte.cpp.obj: CXX_COMPILER__TD1_banque_unscanned_Debug G$:/dossier$ bureau/workspace/CLionProjects/ESIREM/C++/TD1_banque/Compte.cpp || cmake_object_order_depends_target_TD1_banque
+build CMakeFiles/TD1_banque.dir/Compte.cpp.obj: CXX_COMPILER__TD1_banque_unscanned_Debug G$:/dossier$ bureau/workspace/CLionProjects/ESIREM/C++/Gestion_banque/Compte.cpp || cmake_object_order_depends_target_TD1_banque
   DEP_FILE = CMakeFiles\TD1_banque.dir\Compte.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\TD1_banque.dir
   OBJECT_FILE_DIR = CMakeFiles\TD1_banque.dir
 
-build CMakeFiles/TD1_banque.dir/Operation.cpp.obj: CXX_COMPILER__TD1_banque_unscanned_Debug G$:/dossier$ bureau/workspace/CLionProjects/ESIREM/C++/TD1_banque/Operation.cpp || cmake_object_order_depends_target_TD1_banque
+build CMakeFiles/TD1_banque.dir/Operation.cpp.obj: CXX_COMPILER__TD1_banque_unscanned_Debug G$:/dossier$ bureau/workspace/CLionProjects/ESIREM/C++/Gestion_banque/Operation.cpp || cmake_object_order_depends_target_TD1_banque
   DEP_FILE = CMakeFiles\TD1_banque.dir\Operation.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\TD1_banque.dir
+  OBJECT_FILE_DIR = CMakeFiles\TD1_banque.dir
+
+build CMakeFiles/TD1_banque.dir/Date.cpp.obj: CXX_COMPILER__TD1_banque_unscanned_Debug G$:/dossier$ bureau/workspace/CLionProjects/ESIREM/C++/Gestion_banque/Date.cpp || cmake_object_order_depends_target_TD1_banque
+  DEP_FILE = CMakeFiles\TD1_banque.dir\Date.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\TD1_banque.dir
   OBJECT_FILE_DIR = CMakeFiles\TD1_banque.dir
@@ -87,7 +93,7 @@ build CMakeFiles/TD1_banque.dir/Operation.cpp.obj: CXX_COMPILER__TD1_banque_unsc
 #############################################
 # Link the executable TD1_banque.exe
 
-build TD1_banque.exe: CXX_EXECUTABLE_LINKER__TD1_banque_Debug CMakeFiles/TD1_banque.dir/main.cpp.obj CMakeFiles/TD1_banque.dir/Client.cpp.obj CMakeFiles/TD1_banque.dir/Adresse.cpp.obj CMakeFiles/TD1_banque.dir/Compte.cpp.obj CMakeFiles/TD1_banque.dir/Operation.cpp.obj
+build TD1_banque.exe: CXX_EXECUTABLE_LINKER__TD1_banque_Debug CMakeFiles/TD1_banque.dir/main.cpp.obj CMakeFiles/TD1_banque.dir/Client.cpp.obj CMakeFiles/TD1_banque.dir/Adresse.cpp.obj CMakeFiles/TD1_banque.dir/Compte.cpp.obj CMakeFiles/TD1_banque.dir/Operation.cpp.obj CMakeFiles/TD1_banque.dir/Date.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\TD1_banque.dir
@@ -102,7 +108,7 @@ build TD1_banque.exe: CXX_EXECUTABLE_LINKER__TD1_banque_Debug CMakeFiles/TD1_ban
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "G:\dossier bureau\workspace\CLionProjects\ESIREM\C++\TD1_banque\cmake-build-debug" && "G:\Programmes\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D "G:\dossier bureau\workspace\CLionProjects\ESIREM\C++\Gestion_banque\cmake-build-debug" && "G:\Programmes\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -113,7 +119,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "G:\dossier bureau\workspace\CLionProjects\ESIREM\C++\TD1_banque\cmake-build-debug" && "G:\Programmes\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"G:\dossier bureau\workspace\CLionProjects\ESIREM\C++\TD1_banque" -B"G:\dossier bureau\workspace\CLionProjects\ESIREM\C++\TD1_banque\cmake-build-debug""
+  COMMAND = cmd.exe /C "cd /D "G:\dossier bureau\workspace\CLionProjects\ESIREM\C++\Gestion_banque\cmake-build-debug" && "G:\Programmes\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"G:\dossier bureau\workspace\CLionProjects\ESIREM\C++\Gestion_banque" -B"G:\dossier bureau\workspace\CLionProjects\ESIREM\C++\Gestion_banque\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -131,7 +137,7 @@ build TD1_banque: phony TD1_banque.exe
 # =============================================================================
 
 #############################################
-# Folder: G:/dossier bureau/workspace/CLionProjects/ESIREM/C++/TD1_banque/cmake-build-debug
+# Folder: G:/dossier bureau/workspace/CLionProjects/ESIREM/C++/Gestion_banque/cmake-build-debug
 
 build all: phony TD1_banque.exe
 
@@ -142,14 +148,14 @@ build all: phony TD1_banque.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX-ABI.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake G$:/dossier$ bureau/workspace/CLionProjects/ESIREM/C++/TD1_banque/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX-ABI.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake G$:/dossier$ bureau/workspace/CLionProjects/ESIREM/C++/Gestion_banque/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX-ABI.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake G$:/dossier$ bureau/workspace/CLionProjects/ESIREM/C++/TD1_banque/CMakeLists.txt: phony
+build CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX-ABI.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake G$:/Programmes/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake G$:/dossier$ bureau/workspace/CLionProjects/ESIREM/C++/Gestion_banque/CMakeLists.txt: phony
 
 
 #############################################
